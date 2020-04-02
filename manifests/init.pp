@@ -21,6 +21,7 @@ class keepalived (
   Boolean                 $service_hasrestart = $keepalived::params::service_hasrestart,
   Boolean                 $service_hasstatus  = $keepalived::params::service_hasstatus,
   Boolean                 $service_manage     = $keepalived::params::service_manage,
+  Boolean                 $pkg_manage         = $keepalived::params::pkg_manage,
   String[1]               $service_name       = $keepalived::params::service_name,
   Optional[String[1]]     $service_restart    = $keepalived::params::service_restart,
 

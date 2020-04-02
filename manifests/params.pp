@@ -3,6 +3,7 @@
 class keepalived::params {
 
   $pkg_ensure      = 'present'
+  $pkg_manage      = true
   $service_enable  = true
   $service_ensure  = 'running'
   $service_manage  = true
